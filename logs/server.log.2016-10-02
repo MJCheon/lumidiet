@@ -1,0 +1,77 @@
+[DEBUG]2016-10-02 10:45:41
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:101)]
+null
+[DEBUG]2016-10-02 11:50:09
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:101)]
+null
+[DEBUG]2016-10-02 17:25:00
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:25:08
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:25:11
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:25:12
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:25:17
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:25:22
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:25:23
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:43:16
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 17:52:30
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 18:07:35
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 18:07:43
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 18:07:46
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 18:07:48
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 18:07:53
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 18:07:58
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 18:08:00
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+null
+[DEBUG]2016-10-02 20:04:59
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:102)]
+null
+[DEBUG]2016-10-02 20:20:03
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:102)]
+null
+[DEBUG]2016-10-02 20:35:03
+[com.cse.network.HttpClient.getProxyList(HttpClient.java:158)]
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[DEBUG]2016-10-02 20:39:52
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:102)]
+null
+[DEBUG]2016-10-02 21:01:06
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:102)]
+null
+[DEBUG]2016-10-02 21:24:43
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:102)]
+null
+[DEBUG]2016-10-02 22:00:03
+[com.cse.module.ParseModule.savedPageTable(ParseModule.java:102)]
+null

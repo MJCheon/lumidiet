@@ -1,0 +1,56 @@
+[DEBUG]2016-10-27 00:24:58
+[com.cse.module.ParseModule.readLastPageId(ParseModule.java:72)]
+Column Index out of range, 0 < 1.
+[DEBUG]2016-10-27 00:27:44
+[com.cse.module.ParseModule.readLastPageId(ParseModule.java:72)]
+Column Index out of range, 0 < 1.
+[DEBUG]2016-10-27 00:30:45
+[com.cse.module.ParseModule.readLastPageId(ParseModule.java:72)]
+Column Index out of range, 0 < 1.
+[DEBUG]2016-10-27 00:30:46
+[com.cse.module.ParseModule.readLastPageId(ParseModule.java:72)]
+Column Index out of range, 0 < 1.
+[DEBUG]2016-10-27 00:30:46
+[com.cse.Main.main(Main.java:38)]
+0
+[DEBUG]2016-10-27 00:32:48
+[com.cse.Main.main(Main.java:38)]
+48816
+[DEBUG]2016-10-27 04:20:54
+[com.cse.module.WordExtractModule.saveDocWordTable(WordExtractModule.java:191)]
+Job aborted due to stage failure: Task 0 in stage 55.0 failed 1 times, most recent failure: Lost task 0.0 in stage 55.0 (TID 90, localhost): java.sql.BatchUpdateException: Duplicate entry '49480-재료' for key 'wordUnique'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.core.util.Util.handleNewInstance(Util.java:185)
+	at com.mysql.cj.core.util.Util.getInstance(Util.java:172)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:661)
+	at com.mysql.cj.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1734)
+	at com.mysql.cj.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1217)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:1009)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:210)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$$anonfun$saveTable$1.apply(JdbcUtils.scala:277)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$$anonfun$saveTable$1.apply(JdbcUtils.scala:276)
+	at org.apache.spark.rdd.RDD$$anonfun$foreachPartition$1$$anonfun$apply$33.apply(RDD.scala:920)
+	at org.apache.spark.rdd.RDD$$anonfun$foreachPartition$1$$anonfun$apply$33.apply(RDD.scala:920)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:1858)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:1858)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:89)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:227)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '49480-재료' for key 'wordUnique'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:557)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:537)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:527)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2011)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1712)
+	... 15 more
+
+Driver stacktrace:

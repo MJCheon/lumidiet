@@ -1,0 +1,15 @@
+[DEBUG]2016-09-27 11:58:27
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:30)]
+timeout
+[DEBUG]2016-09-27 14:46:53
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+openapi.naver.com: unknown error
+[DEBUG]2016-09-27 15:17:34
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+Read timed out
+[DEBUG]2016-09-27 16:53:09
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+openapi.naver.com: unknown error
+[DEBUG]2016-09-27 16:57:17
+[com.cse.network.NaverNewsAPI.getUrlList(NaverNewsAPI.java:31)]
+openapi.naver.com: unknown error

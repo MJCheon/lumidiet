@@ -1,0 +1,5 @@
+[DEBUG]2016-10-03 18:35:58
+[com.cse.network.HttpClient.getProxyList(HttpClient.java:156)]
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.

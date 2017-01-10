@@ -1,0 +1,6 @@
+[DEBUG]2016-11-06 17:26:40
+[com.cse.entity.Subject.<init>(Subject.java:32)]
+connect timed out
+[DEBUG]2016-11-06 22:14:04
+[com.cse.module.WordExtractModule.saveDocWordTable(WordExtractModule.java:140)]
+Deadlock found when trying to get lock; try restarting transaction
